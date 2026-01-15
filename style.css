@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(
+        rgba(0,0,0,0.85),
+        rgba(0,0,0,0.85)
+    ), url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    min-height: 100vh;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background: rgba(0,0,0,0.7);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff2c55;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar ul li {
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+.navbar ul li:hover {
+    opacity: 1;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 80px);
+}
+
+.hero-content {
+    width: 55%;
+    text-align: center;
+    background: rgba(0,0,0,0.75);
+    padding: 40px;
+    border-radius: 12px;
+}
+
+.hero-content h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 25px;
+}
+
+/* TEXTAREA */
+textarea {
+    width: 100%;
+    height: 150px;
+    background: #111;
+    color: #fff;
+    border: 1px solid #333;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 8px;
+    resize: none;
+}
+
+/* BUTTON */
+button {
+    margin-top: 20px;
+    padding: 12px 35px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    background: #ff2c55;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e02448;
+}
+
+/* RESULT */
+.result {
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: bold;
+}
